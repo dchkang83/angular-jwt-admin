@@ -1,0 +1,19 @@
+
+<header>
+  <router-outlet name='header'></router-outlet>
+</header>
+
+<nav>
+  <router-outlet name='sidenav'></router-outlet>
+
+
+
+  <a routerLink="/header" routerLinkActive="active">Heroes Menu</a>
+  <a routerLink="/dashboard" routerLinkActive="active">DashBoard Menu</a>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <router-outlet name='footer'></router-outlet>
+</footer>
