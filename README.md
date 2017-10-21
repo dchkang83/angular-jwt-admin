@@ -11,3 +11,7 @@
 
 # 구조 참조 1
 	https://github.com/tarlepp/angular-cli-frontend
+
+# Angular Best Practices: Directory Structure
+	> https://github.com/mgechev/angular-seed/issues/857
+	> https://stackoverflow.com/questions/35346342/which-type-of-folder-structure-should-be-used-with-angular-2

@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LayoutModule } from './layout/layout.module';
+//import { LayoutModule } from './shared/layout/layout.module';
+import { SharedModule } from './shared/shared.module';
 import { AboutModule } from './about/about.module';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AboutModule } from './about/about.module';
     AppRoutingModule,
 
     BrowserModule,
-    LayoutModule,
+    //LayoutModule,
+    SharedModule,
     AboutModule,
   ],
   providers: [],
